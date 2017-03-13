@@ -7,13 +7,14 @@ You can use it with `graphql-up`:
 ```
 git clone https://github.com/nikolasburk/ConferencePlanner.git
 cd ConferencePlanner
-npm install -g graphql-up # install graphql-up if you haven't already
+npm install -g graphql-up # install graphql-up, if you haven't already
 graphql-up conference_planner.schema
 ```
 
 Or if you don't want to clone the repository:
 
 ```
-graphql-up conference_planner.schema
-
+npm install -g graphql-up # install graphql-up, if you haven't already
+graphql-up https://github.com/nikolasburk/ConferencePlanner/blob/master/conference_planner.schema
 ```
+
