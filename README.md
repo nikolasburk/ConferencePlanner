@@ -2,7 +2,7 @@
 
 This repository contains a GraphQL schema that can be used to build a Conference Planner application.
 
-You can use it with `graphql-up`:
+You can use it with [`graphql-up`](https://graph.cool/graphql-up/):
 
 ```
 git clone https://github.com/nikolasburk/ConferencePlanner.git
