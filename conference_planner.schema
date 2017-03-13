@@ -1,0 +1,12 @@
+type Conference {
+  id: ID!
+  name: String!
+  city: String!
+  attendees: [Attendee!]!
+}
+
+type Attendee {
+  id: ID!
+  name: String!
+  conferences: [Conference!]!
+}
