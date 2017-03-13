@@ -2,11 +2,11 @@ type Conference {
   id: ID!
   name: String!
   city: String!
-  attendees: [Attendee!]!
+  attendees: [Attendee!]! @relation(name: "ConferenceAttendee")
 }
 
 type Attendee {
   id: ID!
   name: String!
-  conferences: [Conference!]!
+  conferences: [Conference!]! @relation(name: "ConferenceAttendee")
 }
