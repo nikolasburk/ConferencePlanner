@@ -2,6 +2,7 @@ type Conference {
   id: ID!
   name: String!
   city: String!
+  yar: String!
   attendees: [Attendee!]! @relation(name: "ConferenceAttendee")
 }
 
