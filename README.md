@@ -22,3 +22,6 @@ Or if you don't want to clone the repository:
 graphql-up https://github.com/nikolasburk/ConferencePlanner/blob/master/conference_planner.schema
 ```
 
+Or simply click this button:
+
+[![graphql-up](http://static.graph.cool/images/graphql-up.svg)](https://www.graph.cool/graphql-up/new?source=https://raw.githubusercontent.com/nikolasburk/ConferencePlanner/master/conference_planner.schema)
